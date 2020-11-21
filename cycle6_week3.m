@@ -181,11 +181,11 @@ the_fourth(ind)
 % For example this command
 
 ind=find( the_fourth > .9, 2, 'first')
-the_fourth(ind)
+D = the_fourth(ind)
 
 % returns the first two indices in the_fourth satisfying the condition > .9
 
-% 10. Write a command that locates the same values but uses logical
+% 10. Write a command that locates the same values as in D but uses logical
 % indexing as we introduced it, ie by generating another matrix.
 
 % So what's the difference? The rule of thumb, as far as I know, is that
