@@ -54,8 +54,8 @@
 % Use zeros and size to create an empty matrix of the same dimensions as
 % the image, call your new matrix m.
 
-% Index the matrix m in the center to create a group of 10x10 pixels where
-% the value is 1 instead of zero.
+% Index the matrix m in the center to create a group of 10x10 pixels and set
+% the values 1 instead of zero.
 
 % Display the matrix m in a figure window using imagesc to see the result.
 
